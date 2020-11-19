@@ -1,0 +1,16 @@
+{
+    "name": "find-problem-tokens",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "Apache-2.0",
+    "scripts": {
+        "compile": "soluble compile -O build contracts/**.sol"
+    },
+    "dependencies": {
+        "colors": "^1.4.0",
+        "flex-contract": "^2.2.5",
+        "solc": "^0.7.5",
+        "soluble": "^1.1.1",
+        "yargs": "^16.1.1"
+    }
+}
